@@ -1,0 +1,42 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "book",
+            "otherEntityName": "book",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "author"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20190309214655",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "serviceClass",
+    "entityTableName": "author",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
