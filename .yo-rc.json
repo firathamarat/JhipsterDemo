@@ -1,0 +1,33 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.jhipster.demo"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "JhipsterDemo",
+        "packageName": "com.jhipster.demo",
+        "packageFolder": "com/jhipster/demo",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ODQ2MWU2MjU2Yzg3OTRhMjRlN2QzNDZlZjFlYmZkYjBiMzIzZjA0NjlmODMyNjAzN2I3ZWZiYjU1NWM0ODA0Y2Y5YzA2N2Y3M2JkZjM2MGFiNmFjYmNmZjkxMDAwNTMxNDk1NmRkMDE4YjUwM2IxMzMzZDJjN2VjZTk0YjQ1OTI=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
